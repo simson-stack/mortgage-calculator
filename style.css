@@ -238,6 +238,8 @@ input[type="radio"]:checked {
         width: 80vw;
         height: 90hw;
         margin: 0 auto;
+        background-color: var(--white);
+        border-radius: 20px;
     }
     .top {
         background-color: var(--white);
@@ -249,6 +251,7 @@ input[type="radio"]:checked {
         margin-top: 0;
         width: 50%;
         display: flex;
+        border-radius: 0 20px 20px 50px;
     }
     #calculator {
         width:70%;
@@ -272,5 +275,7 @@ input[type="radio"]:checked {
     .paragraph {
         margin-top: 20px;
     }
-
+    #completed-calc {
+        border-radius: 0 20px 20px 50px;
+    }
 }
